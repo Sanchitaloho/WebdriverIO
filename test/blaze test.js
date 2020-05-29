@@ -1,3 +1,5 @@
+
+// Part 2:use blazemaster website
 const blazePage=require("../pages/blazemeter")
 
 describe("blaze page elements", function(){
