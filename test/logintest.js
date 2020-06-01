@@ -1,6 +1,6 @@
 // Part 4:Login screen test
 const login=require("../pages/loginpage");
-const Chai = require('chai')
+
 
 describe("how to handle login page in webdriver IO", function(){
 
