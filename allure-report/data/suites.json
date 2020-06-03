@@ -1,0 +1,160 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "how to handle application login page in webdriver IO",
+    "children" : [ {
+      "name" : "enter username",
+      "uid" : "fec0065b216d8e52",
+      "parentUid" : "e81721fe1cce55c62772c5846e2c21cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591217487891,
+        "stop" : 1591217491264,
+        "duration" : 3373
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "enter password",
+      "uid" : "abde013bbb6bb077",
+      "parentUid" : "e81721fe1cce55c62772c5846e2c21cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591217491265,
+        "stop" : 1591217491640,
+        "duration" : 375
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should click Login button",
+      "uid" : "e731ccb7d2aeff53",
+      "parentUid" : "e81721fe1cce55c62772c5846e2c21cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591217491641,
+        "stop" : 1591217492086,
+        "duration" : 445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "clear username and password",
+      "uid" : "e62053cbdc0a24d4",
+      "parentUid" : "e81721fe1cce55c62772c5846e2c21cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591217492087,
+        "stop" : 1591217492362,
+        "duration" : 275
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "e81721fe1cce55c62772c5846e2c21cf"
+  }, {
+    "name" : "how to handle checkbox in webdriver IO",
+    "children" : [ {
+      "name" : "should show the link name",
+      "uid" : "a2dc5deef6fc47e3",
+      "parentUid" : "8a1dd57c5b8fb5b1381576cbcdb405a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591217975654,
+        "stop" : 1591217977410,
+        "duration" : 1756
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should click checkbox",
+      "uid" : "7a7b86fda954856",
+      "parentUid" : "8a1dd57c5b8fb5b1381576cbcdb405a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591217977410,
+        "stop" : 1591217989141,
+        "duration" : 11731
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "check header of checkbox",
+      "uid" : "b9c2c2ee2fb0b41",
+      "parentUid" : "8a1dd57c5b8fb5b1381576cbcdb405a0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1591217989142,
+        "stop" : 1591217991208,
+        "duration" : 2066
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "8a1dd57c5b8fb5b1381576cbcdb405a0"
+  }, {
+    "name" : "blaze page elements",
+    "children" : [ {
+      "name" : "get texts for all main links",
+      "uid" : "e563ed72730c72cf",
+      "parentUid" : "2ab3d6e831d383ae32102e2b7754daef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591217975781,
+        "stop" : 1591217979111,
+        "duration" : 3330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "main heading exists?",
+      "uid" : "578c5cf412631fcc",
+      "parentUid" : "2ab3d6e831d383ae32102e2b7754daef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591217979112,
+        "stop" : 1591217979705,
+        "duration" : 593
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "JMeter exists?",
+      "uid" : "38dc62ce95ee8878",
+      "parentUid" : "2ab3d6e831d383ae32102e2b7754daef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591217979705,
+        "stop" : 1591217979782,
+        "duration" : 77
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "click on product link if displayed?",
+      "uid" : "9e2b2d189c94acb8",
+      "parentUid" : "2ab3d6e831d383ae32102e2b7754daef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591217979782,
+        "stop" : 1591217984995,
+        "duration" : 5213
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "2ab3d6e831d383ae32102e2b7754daef"
+  } ]
+}

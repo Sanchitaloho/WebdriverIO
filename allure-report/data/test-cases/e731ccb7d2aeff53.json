@@ -1,0 +1,164 @@
+{
+  "uid" : "e731ccb7d2aeff53",
+  "name" : "should click Login button",
+  "fullName" : "how to handle application login page in webdriver IO.should click Login button",
+  "historyId" : "3d489722019de1813fbc89c01fd85d8",
+  "time" : {
+    "start" : 1591217491641,
+    "stop" : 1591217492086,
+    "duration" : 445
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1591217491641,
+        "stop" : 1591217491669,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce453c0378331911",
+        "name" : "Request",
+        "source" : "ce453c0378331911.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "c930b02000343c3d",
+        "name" : "Response",
+        "source" : "c930b02000343c3d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1591217491678,
+        "stop" : 1591217491700,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1f4bd59a45d823f9",
+        "name" : "Request",
+        "source" : "1f4bd59a45d823f9.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "3d49a56aac926fcd",
+        "name" : "Response",
+        "source" : "3d49a56aac926fcd.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1591217491701,
+        "stop" : 1591217491723,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8381ea29cebe47f2",
+        "name" : "Request",
+        "source" : "8381ea29cebe47f2.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "4c4c06813f6838ce",
+        "name" : "Response",
+        "source" : "4c4c06813f6838ce.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/f6224c51-24f1-4c11-8823-3be9c5cf6b66/click",
+      "time" : {
+        "start" : 1591217491728,
+        "stop" : 1591217492085,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "how to handle application login page in webdriver IO"
+  }, {
+    "name" : "testClass",
+    "value" : "how to handle application login page in webdriver IO"
+  }, {
+    "name" : "testMethod",
+    "value" : "should click Login button"
+  }, {
+    "name" : "package",
+    "value" : "how to handle application login page in webdriver IO"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e731ccb7d2aeff53.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected 'Checkboxes' to equal 'Checkboxes1'",
+      "children" : [ {
+        "name" : "check header of checkbox",
+        "uid" : "b9c2c2ee2fb0b41",
+        "parentUid" : "d65cc60149ce352c91ea07bad028cc58",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591217989142,
+          "stop" : 1591217991208,
+          "duration" : 2066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "d65cc60149ce352c91ea07bad028cc58"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,111 @@
+[ {
+  "uid" : "38dc62ce95ee8878",
+  "name" : "JMeter exists?",
+  "time" : {
+    "start" : 1591217979705,
+    "stop" : 1591217979782,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9c2c2ee2fb0b41",
+  "name" : "check header of checkbox",
+  "time" : {
+    "start" : 1591217989142,
+    "stop" : 1591217991208,
+    "duration" : 2066
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2dc5deef6fc47e3",
+  "name" : "should show the link name",
+  "time" : {
+    "start" : 1591217975654,
+    "stop" : 1591217977410,
+    "duration" : 1756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abde013bbb6bb077",
+  "name" : "enter password",
+  "time" : {
+    "start" : 1591217491265,
+    "stop" : 1591217491640,
+    "duration" : 375
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a7b86fda954856",
+  "name" : "should click checkbox",
+  "time" : {
+    "start" : 1591217977410,
+    "stop" : 1591217989141,
+    "duration" : 11731
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fec0065b216d8e52",
+  "name" : "enter username",
+  "time" : {
+    "start" : 1591217487891,
+    "stop" : 1591217491264,
+    "duration" : 3373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e2b2d189c94acb8",
+  "name" : "click on product link if displayed?",
+  "time" : {
+    "start" : 1591217979782,
+    "stop" : 1591217984995,
+    "duration" : 5213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e731ccb7d2aeff53",
+  "name" : "should click Login button",
+  "time" : {
+    "start" : 1591217491641,
+    "stop" : 1591217492086,
+    "duration" : 445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e563ed72730c72cf",
+  "name" : "get texts for all main links",
+  "time" : {
+    "start" : 1591217975781,
+    "stop" : 1591217979111,
+    "duration" : 3330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e62053cbdc0a24d4",
+  "name" : "clear username and password",
+  "time" : {
+    "start" : 1591217492087,
+    "stop" : 1591217492362,
+    "duration" : 275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "578c5cf412631fcc",
+  "name" : "main heading exists?",
+  "time" : {
+    "start" : 1591217979112,
+    "stop" : 1591217979705,
+    "duration" : 593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
