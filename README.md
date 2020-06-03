@@ -9,3 +9,5 @@ npm run --suite testSuites
 
 To display and genearte alure reports:
 allure generate allure-results --clean -o allure-report && allure open allure-report
+or
+allure generate allure-results/ --clean && allure open -p 8000
