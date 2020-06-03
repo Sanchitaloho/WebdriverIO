@@ -17,12 +17,19 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/**/logintest.js'
+        './test/**/*.js'
     ],
+
+    suites:{
+        testSuites: [
+            './test/testSuites/*.js'
+        ]
+    },
+
     // Patterns to exclude.
-    exclude: [
+    //exclude: [
         // 'path/to/excluded/files'
-    ],
+    //],
     //
     // ============
     // Capabilities
@@ -124,7 +131,15 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec',['allure', {outputDir: 'allure-results'}]],
+    reporters: ['allure', 'spec', ],
+    reporterOptions:  {
+        outputDir: './wdio-logs/',
+        allure: {outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,}
+        
+    
+    },
  
     //
     // Options to be passed to Mocha.

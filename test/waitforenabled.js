@@ -44,8 +44,7 @@ describe("wait to get submit button enabled and disabled", function(){
         email.setValue('sanch.loho28@gmail.com')
         pass.setValue('Autotest@1234')
         loginbutton.click();
-        
-        browser
+                
         //contact page
         contact1.waitForDisplayed();
         contact1.click();

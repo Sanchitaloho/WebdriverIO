@@ -1,0 +1,233 @@
+{
+  "uid" : "abde013bbb6bb077",
+  "name" : "enter password",
+  "fullName" : "how to handle application login page in webdriver IO.enter password",
+  "historyId" : "c250c2c9a2ce06f2530408255e063d4d",
+  "time" : {
+    "start" : 1591217491265,
+    "stop" : 1591217491640,
+    "duration" : 375
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1591217491267,
+        "stop" : 1591217491290,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a1c9a6c42f1a40a9",
+        "name" : "Request",
+        "source" : "a1c9a6c42f1a40a9.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "cd6db93501b9333c",
+        "name" : "Response",
+        "source" : "cd6db93501b9333c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1591217491293,
+        "stop" : 1591217491314,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7088bd26e91b0f3",
+        "name" : "Request",
+        "source" : "7088bd26e91b0f3.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "e94c1e7a8e5a8a96",
+        "name" : "Response",
+        "source" : "e94c1e7a8e5a8a96.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1591217491315,
+        "stop" : 1591217491334,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c5703745dcc1bbcb",
+        "name" : "Request",
+        "source" : "c5703745dcc1bbcb.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "2f9c4aedc0437ce4",
+        "name" : "Response",
+        "source" : "2f9c4aedc0437ce4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/2c0ea320-54a6-4d6b-a62c-de822e82a9b6/clear",
+      "time" : {
+        "start" : 1591217491337,
+        "stop" : 1591217491407,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/2c0ea320-54a6-4d6b-a62c-de822e82a9b6/value",
+      "time" : {
+        "start" : 1591217491410,
+        "stop" : 1591217491609,
+        "duration" : 199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb617aaf9e1c7f27",
+        "name" : "Request",
+        "source" : "bb617aaf9e1c7f27.json",
+        "type" : "application/json",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1591217491609,
+        "stop" : 1591217491624,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5e1b44b9ac63b00f",
+        "name" : "Request",
+        "source" : "5e1b44b9ac63b00f.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "7d0ac828d317dd8f",
+        "name" : "Response",
+        "source" : "7d0ac828d317dd8f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/2c0ea320-54a6-4d6b-a62c-de822e82a9b6/property/value",
+      "time" : {
+        "start" : 1591217491626,
+        "stop" : 1591217491640,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f8f5965e61a18b1",
+        "name" : "Response",
+        "source" : "7f8f5965e61a18b1.json",
+        "type" : "application/json",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 10,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "how to handle application login page in webdriver IO"
+  }, {
+    "name" : "testClass",
+    "value" : "how to handle application login page in webdriver IO"
+  }, {
+    "name" : "testMethod",
+    "value" : "enter password"
+  }, {
+    "name" : "package",
+    "value" : "how to handle application login page in webdriver IO"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "abde013bbb6bb077.json",
+  "parameterValues" : [ "chrome" ]
+}

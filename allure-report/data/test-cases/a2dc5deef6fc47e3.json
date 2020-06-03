@@ -1,0 +1,145 @@
+{
+  "uid" : "a2dc5deef6fc47e3",
+  "name" : "should show the link name",
+  "fullName" : "how to handle checkbox in webdriver IO.should show the link name",
+  "historyId" : "4a2d335be36984cb087b7da385d8707d",
+  "time" : {
+    "start" : 1591217975654,
+    "stop" : 1591217977410,
+    "duration" : 1756
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1591217976018,
+        "stop" : 1591217977294,
+        "duration" : 1276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a6aac8f59fdb624",
+        "name" : "Request",
+        "source" : "a6aac8f59fdb624.json",
+        "type" : "application/json",
+        "size" : 50
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1591217977297,
+        "stop" : 1591217977347,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c7021d863a7777a6",
+        "name" : "Request",
+        "source" : "c7021d863a7777a6.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "2535f7540987f65",
+        "name" : "Response",
+        "source" : "2535f7540987f65.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/46b78133-e4c4-4146-a0fa-064a1523b3ca/text",
+      "time" : {
+        "start" : 1591217977369,
+        "stop" : 1591217977409,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8609826802cef612",
+        "name" : "Response",
+        "source" : "8609826802cef612.json",
+        "type" : "application/json",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "how to handle checkbox in webdriver IO"
+  }, {
+    "name" : "testClass",
+    "value" : "how to handle checkbox in webdriver IO"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show the link name"
+  }, {
+    "name" : "package",
+    "value" : "how to handle checkbox in webdriver IO"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4eb31737417e81ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591217764226,
+        "stop" : 1591217768489,
+        "duration" : 4263
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2dc5deef6fc47e3.json",
+  "parameterValues" : [ "chrome" ]
+}

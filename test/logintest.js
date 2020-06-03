@@ -1,18 +1,18 @@
 // Part 4:Login screen test
 const login=require("../pages/loginpage");
+const logindata= require("../testdata/logindata")
 
-
-describe("how to handle login page in webdriver IO", function(){
+describe("how to handle application login page in webdriver IO", function(){
 
     it("enter username",function(){
         browser.url("https://the-internet.herokuapp.com/login");
        // browser.url(`${browser.options.baseUrl}/login`);
-        login.enterUsername('tomsmith');
-        assert.equal('tomsmith',login.username.getValue());
+        login.enterUsername(logindata.username);
+        assert.equal(logindata.username,login.username.getValue()); // avoiding hard code data
         });
     
     it("enter password",function(){
-        login.enterPassword('SuperSecretPassword');
+        login.enterPassword(logindata.password);
         assert.equal('SuperSecretPassword',login.password.getValue());
         
     });

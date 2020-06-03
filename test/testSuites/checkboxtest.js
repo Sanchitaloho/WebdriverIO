@@ -1,5 +1,5 @@
 // Part 3:handling checkbox
-const internetPage=require("../pages/internetpage");
+const internetPage=require("../../pages/internetpage");
 
 describe("how to handle checkbox in webdriver IO", function(){
 
@@ -21,7 +21,7 @@ describe("how to handle checkbox in webdriver IO", function(){
         internetPage.clickOnLinkElement(6);
         internetPage.headerDisplay.waitForDisplayed();
         const text=internetPage.headerDisplay.getText();
-        expect(text).equals("Checkboxes");
+        expect(text).equals("Checkboxes1");
         
     });
 })

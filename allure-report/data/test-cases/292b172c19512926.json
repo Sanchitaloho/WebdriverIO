@@ -1,0 +1,162 @@
+{
+  "uid" : "292b172c19512926",
+  "name" : "click on product link if displayed?",
+  "fullName" : "blaze page elements.click on product link if displayed?",
+  "historyId" : "20b226e4e0595754a345f97208eaad2",
+  "time" : {
+    "start" : 1591217770740,
+    "stop" : 1591217776029,
+    "duration" : 5289
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1591217770741,
+        "stop" : 1591217770789,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d5dd4de88f2cf473",
+        "name" : "Request",
+        "source" : "d5dd4de88f2cf473.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "3c0f599308f9ddb8",
+        "name" : "Response",
+        "source" : "3c0f599308f9ddb8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1591217770794,
+        "stop" : 1591217770841,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "837adc266e7f762d",
+        "name" : "Request",
+        "source" : "837adc266e7f762d.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "11d965b2276f68c5",
+        "name" : "Response",
+        "source" : "11d965b2276f68c5.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1591217770842,
+        "stop" : 1591217770887,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c91e2d57deec5c78",
+        "name" : "Request",
+        "source" : "c91e2d57deec5c78.json",
+        "type" : "application/json",
+        "size" : 61
+      }, {
+        "uid" : "9e3a304f9a7cf863",
+        "name" : "Response",
+        "source" : "9e3a304f9a7cf863.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/efc2bd6b-d44e-4633-9964-95f5c1c09421/click",
+      "time" : {
+        "start" : 1591217770892,
+        "stop" : 1591217771019,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "blaze page elements"
+  }, {
+    "name" : "testClass",
+    "value" : "blaze page elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "click on product link if displayed?"
+  }, {
+    "name" : "package",
+    "value" : "blaze page elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "292b172c19512926.json",
+  "parameterValues" : [ "chrome" ]
+}
